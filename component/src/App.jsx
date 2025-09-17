@@ -2,14 +2,14 @@ import React, { Component, useState, useEffect } from "react";
 
 // 🔹 Class Component
 class ClassComponent extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { message: "Hello from Class Component!" };
+  constructor(props) {////property passed from the parent component to this component 
+    super(props);//parent class constructor
+    this.state = { message: "Hello from Class Component!" };// initial state of component 
   }
 
-  componentDidMount() {
+  /*componentDidMount() {
     console.log("ClassComponent Mounted");
-  }
+  }*/
 
   handleClick = () => {
     this.setState({ message: "Button clicked in Class Component!" });
