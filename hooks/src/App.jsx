@@ -1,18 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import AllHooksExample from "./AllHooksExample";
 
-function Counter() { // fuctional component
-  const [count, setCount] = useState(0);// useState () 
-
-  useEffect(() => { //fuction
-    document.title = `You clicked ${count} times`;//
-  }, [count]);
-
+export default function App() {
   return (
     <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>Click Me</button>
+      <h1 style={{ textAlign: "center", color: "purple" }}>
+        🚀 React Hooks Playground
+      </h1>
+      <AllHooksExample />
     </div>
   );
 }
-
-export default Counter;
