@@ -8,7 +8,8 @@ function TodoApp() {
   const addTodo = () => {
     if (newTodo.trim() === "") return;
     setTodos([...todos, { text: newTodo }]);
-    setNewTodo("");
+   
+    
   };
 
   return (
