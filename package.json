@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "beyondchats-frontend",
   "private": true,
   "version": "0.0.0",
@@ -35,4 +36,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+=======
+  "dependencies": {
+    "react-router-dom": "^7.9.1"
+  }
+>>>>>>> aa3dffd43c886b14c55bf703e964a6b77d85bf6d
 }
